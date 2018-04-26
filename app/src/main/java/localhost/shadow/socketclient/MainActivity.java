@@ -13,7 +13,8 @@ import java.net.Socket;
 public class MainActivity extends Activity {
 
     Button btnRefresh;
-    EditText replayT;
+    EditText replayT, paramsT;
+
 
 
     @Override
@@ -24,11 +25,13 @@ public class MainActivity extends Activity {
         final Client client = new Client();
         client.setCommand("SELECT TOP 100 * FROM test;");
 
+        paramsT = (EditText)findViewById(R.id.paramsT);
+
         View.OnClickListener oclBtnRef = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                client.setCommand("SELECT GETDATE()");
+                client.setCommand("SELECT GETDATE()" + paramsT.getText());
             }
         };
         btnRefresh = (Button) findViewById(R.id.refresh);

@@ -577,17 +577,18 @@ public final class R {
     public static final int left=0x7f040008;
     public static final int none=0x7f040009;
     public static final int packed=0x7f04000a;
-    public static final int parent=0x7f04000b;
-    public static final int percent=0x7f04000c;
-    public static final int refresh=0x7f04000d;
-    public static final int replayText=0x7f04000e;
-    public static final int right=0x7f04000f;
-    public static final int spread=0x7f040010;
-    public static final int spread_inside=0x7f040011;
-    public static final int standard=0x7f040012;
-    public static final int start=0x7f040013;
-    public static final int top=0x7f040014;
-    public static final int wrap=0x7f040015;
+    public static final int paramsT=0x7f04000b;
+    public static final int parent=0x7f04000c;
+    public static final int percent=0x7f04000d;
+    public static final int refresh=0x7f04000e;
+    public static final int replayText=0x7f04000f;
+    public static final int right=0x7f040010;
+    public static final int spread=0x7f040011;
+    public static final int spread_inside=0x7f040012;
+    public static final int standard=0x7f040013;
+    public static final int start=0x7f040014;
+    public static final int top=0x7f040015;
+    public static final int wrap=0x7f040016;
   }
   public static final class layout {
     public static final int activity_main=0x7f050000;
