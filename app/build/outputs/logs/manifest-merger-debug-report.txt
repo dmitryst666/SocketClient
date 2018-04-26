@@ -22,6 +22,10 @@ INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
 		INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:4:22-64
 application
 ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:5:5-19:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\9f5d57ab2f1fc897d6a915c95f9f62c0\AndroidManifest.xml:9:5-20
