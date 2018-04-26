@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                client.setCommand("SELECT GETDATE()" + paramsT.getText());
+                client.setCommand("SELECT GETDATE() " + paramsT.getText());
             }
         };
         btnRefresh = (Button) findViewById(R.id.refresh);
