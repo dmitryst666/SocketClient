@@ -8,17 +8,18 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="" />
+        android:hint="test" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="t" />
+        android:hint="" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="top"
-        android:hint="" />
+        android:id="@+id/replayText"
+        android:hint="Server replay" />
     <Button
         android:layout_width="100dp"
         android:layout_height="wrap_content"
