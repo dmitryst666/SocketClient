@@ -27,10 +27,10 @@ public class Client {
         @Override
         protected Void doInBackground(Void... params) {
             try {
-                s = new Socket("127.0.0.1",11000);
+                s = new Socket("192.168.1.29",11000);
                 //String msg = "hi server";
                 s.getOutputStream().write(command.getBytes()); //посылаем команду на сервер
-                byte[] buf = new byte[64*1024];
+         /*       byte[] buf = new byte[64*1024];
                 int r = s.getInputStream().read(buf);
                 String data = new String(buf,0,r); //строка от сервера
 
@@ -43,7 +43,7 @@ public class Client {
                 //r = s.getInputStream().read();
                 String xml = new String(buf,0,r); // принимаем большие данные
                 Log.d("test",xml);
-
+*/
 
                 s.close();
                 s = null;
