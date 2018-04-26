@@ -7,7 +7,8 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
 
-    Button btnRefresh = (Button) findViewById(R.id.refresh);
+    Button btnRefresh;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +25,9 @@ public class MainActivity extends Activity {
                 client.setCommand("SELECT GETDATE()");
             }
         };
-
+        btnRefresh = (Button) findViewById(R.id.refresh);
         btnRefresh.setOnClickListener(oclBtnRef);
 
     }
+
 }
