@@ -65,19 +65,19 @@ public class MainActivity extends Activity {
             @Override
             protected Void doInBackground(Void... params) {
                 try {
-                    s = new Socket("192.168.33.89", 11000);
+                    s = new Socket("192.168.1.29", 11000);
                     //String msg = "hi server";
-                    s.getOutputStream().write(command.getBytes()); //посылаем команду на сервер
+                   // s.getOutputStream().write(command.getBytes()); //посылаем команду на сервер
+                    s.getOutputStream().write("ok".getBytes()); //говорим серверу что подтверждение полученно
+
                     byte[] buf = new byte[64 * 1024];
                     int r = s.getInputStream().read(buf);
                     data = new String(buf, 0, r); //строка от сервера
 
-                    Log.d("test", "Сообщение сервера: " + data);
-
-
-             /*       buf = new byte[500 * 1024];
-                    s.getOutputStream().write("ok".getBytes()); //говорим серверу что подтверждение полученно
-
+                   // Log.d("test", "Сообщение сервера: " + data);
+                   // buf = new byte[64 * 1024];
+                   // s.getOutputStream().write("ok".getBytes()); //говорим серверу что подтверждение полученно
+/*
                     r = s.getInputStream().read(buf);
                     //r = s.getInputStream().read();
                     String xml = new String(buf, 0, r); // принимаем большие данные

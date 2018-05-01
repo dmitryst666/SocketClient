@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "outputFile": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "4,2,3",
                         "startColumns": "4,4,4",
@@ -21,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "49",
+                        "endOffsets": "62"
+                    },
+                    "to": {
+                        "startLines": "133",
+                        "startColumns": "4",
+                        "startOffsets": "11746",
+                        "endColumns": "49",
+                        "endOffsets": "11791"
+                    }
+                },
+                {
+                    "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -40,24 +57,7 @@
                     }
                 },
                 {
-                    "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "49",
-                        "endOffsets": "62"
-                    },
-                    "to": {
-                        "startLines": "133",
-                        "startColumns": "4",
-                        "startOffsets": "11746",
-                        "endColumns": "49",
-                        "endOffsets": "11791"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\constraint-layout-1.1.0.aar\\c31de117b1170932cde318caebc5b78b\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\constraint-layout-1.1.0.aar\\9f5d57ab2f1fc897d6a915c95f9f62c0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,11,12,13,14,15,19,20,21,22,25,26,29,32,33,34,35,36,39,42,43,44,45,50,53,56,57,58,63,64,65,68,71,72,75,78,81,84,85,88,91,92,97,98,103,106,109,110,111,112,113,114,115,116,117,118",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
