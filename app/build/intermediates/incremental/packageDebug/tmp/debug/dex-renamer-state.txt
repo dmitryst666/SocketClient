@@ -1,4 +1,4 @@
-#Tue May 01 16:40:31 GET 2018
-base.0=D\:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Tue May 01 21:01:20 GET 2018
+base.0=I\:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

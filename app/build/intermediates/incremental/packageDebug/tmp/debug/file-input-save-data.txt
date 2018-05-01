@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Mon Apr 30 12:14:50 GET 2018
+#Tue May 01 20:03:09 GET 2018
 0.baseType=DIRECTORY
-0.base=D\:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.base=I\:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=classes.dex
 0.set=DEX
 count=1

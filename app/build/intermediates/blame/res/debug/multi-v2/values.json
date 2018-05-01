@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "4,2,3",
                         "startColumns": "4,4,4",
@@ -13,32 +13,15 @@
                         "endOffsets": "198,99,151"
                     },
                     "to": {
-                        "startLines": "126,127,128",
+                        "startLines": "130,131,132",
                         "startColumns": "4,4,4",
-                        "startOffsets": "5784,5830,5877",
+                        "startOffsets": "6033,6079,6126",
                         "endColumns": "45,46,50",
-                        "endOffsets": "5825,5872,5923"
+                        "endOffsets": "6074,6121,6172"
                     }
                 },
                 {
-                    "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "49",
-                        "endOffsets": "62"
-                    },
-                    "to": {
-                        "startLines": "133",
-                        "startColumns": "4",
-                        "startOffsets": "11746",
-                        "endColumns": "49",
-                        "endOffsets": "11791"
-                    }
-                },
-                {
-                    "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -48,16 +31,52 @@
                         "endOffsets": "187"
                     },
                     "to": {
-                        "startLines": "134",
+                        "startLines": "142",
                         "startColumns": "4",
-                        "startOffsets": "11796",
-                        "endLines": "136",
+                        "startOffsets": "12837",
+                        "endLines": "144",
                         "endColumns": "12",
-                        "endOffsets": "11924"
+                        "endOffsets": "12965"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\constraint-layout-1.1.0.aar\\9f5d57ab2f1fc897d6a915c95f9f62c0\\res\\values\\values.xml",
+                    "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "49",
+                        "endOffsets": "62"
+                    },
+                    "to": {
+                        "startLines": "141",
+                        "startColumns": "4",
+                        "startOffsets": "12787",
+                        "endColumns": "49",
+                        "endOffsets": "12832"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-21.0.3.aar\\2facc853d620b35ae1040287e112e793\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "3,4,5,6,34,35,36,38,47,51",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,117,179,241,1934,1993,2050,2105,2572,2699",
+                        "endLines": "3,4,5,6,34,35,36,45,49,53",
+                        "endColumns": "60,61,61,63,58,56,53,12,12,12",
+                        "endOffsets": "112,174,236,300,1988,2045,2099,2566,2693,2822"
+                    },
+                    "to": {
+                        "startLines": "126,127,128,129,138,139,140,145,153,156",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5784,5845,5907,5969,12617,12676,12733,12970,13436,13562",
+                        "endLines": "126,127,128,129,138,139,140,152,155,158",
+                        "endColumns": "60,61,61,63,58,56,53,12,12,12",
+                        "endOffsets": "5840,5902,5964,6028,12671,12728,12782,13431,13557,13685"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\constraint-layout-1.1.0.aar\\c31de117b1170932cde318caebc5b78b\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,11,12,13,14,15,19,20,21,22,25,26,29,32,33,34,35,36,39,42,43,44,45,50,53,56,57,58,63,64,65,68,71,72,75,78,81,84,85,88,91,92,97,98,103,106,109,110,111,112,113,114,115,116,117,118",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
