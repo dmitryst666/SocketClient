@@ -5,15 +5,15 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TextView;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 
-import java.net.Inet4Address;
 import java.net.Socket;
+import java.util.ArrayList;
+import java.util.List;
 
 ///  http://www.fandroid.info/primer-ispolzovaniya-cardview-i-recyclerview-v-android/
 
@@ -22,7 +22,11 @@ public class MainActivity extends Activity {
     Button btnRefresh;
     EditText replayT, paramsT;
     TextView account, cli_name;
-    RecyclerView rv;
+    private List<Person> persons;
+
+    ListView lv;
+
+
 
 
 
@@ -31,14 +35,28 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        account = (TextView)findViewById(R.id.account);
-        cli_name = (TextView)findViewById(R.id.name);
+       //       initializeData();
+     String[] accz = new String[] { "Android", "iPhone", "WindowsMobile",
+                "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
+                "Linux", "OS/2" };
+     String[] detz =  new String[] {"4.4", "9.0", "10",
+                "N/A", "N/A", "17.9", "Win7", "10.X",
+                "4.0", "Deprecated"};
 
-        account.setText("141000000");
-        cli_name.setText("tgdf g dug uf uy odf ");
+        CustomList adapter = new CustomList(MainActivity.this, accz, detz);
+        lv = (ListView)findViewById(R.id.lv);
+        lv.setAdapter(adapter);
 
-        final Client client = new Client();
-        client.setCommand("SELECT TOP 100 * FROM test;");
+
+
+      //  account = (TextView)findViewById(R.id.account);
+      //  cli_name = (TextView)findViewById(R.id.name);
+
+       // account.setText("141000000");
+       // cli_name.setText("tgdf g dug uf uy odf ");
+
+       // final Client client = new Client();
+      //  client.setCommand("SELECT TOP 100 * FROM test;");
 
         paramsT = (EditText)findViewById(R.id.paramsT);
 
@@ -46,19 +64,48 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                client.setCommand("SELECT GETDATE() " + paramsT.getText());
+               // client.setCommand("SELECT GETDATE() " + paramsT.getText());
             }
         };
         btnRefresh = (Button) findViewById(R.id.refresh);
         btnRefresh.setOnClickListener(oclBtnRef);
 
+    }
+
+    public class Person {
+        private String Account;
+        private String Name;
 
 
+        private Person (String a, String n){
+            Account = a;
+            Name = n;
+        }
+
+        public String getAccount() {
+            return Account;
+        }
+
+        public String getName() {
+            return Name;
+        }
 
     }
 
+
+
+
+    public void initializeData(){
+        persons = new ArrayList<>();
+        persons.add(new Person("5454","4554"));
+        persons.add(new Person("1410000", "111111111"));
+        persons.add(new Person("1410001", "25 years old"));
+        persons.add(new Person("1410002", "35 years old"));
+    }
+
+
     public class Client {
-        public  String command;
+        String command;
         AsyncClient asyncClient;
 
 
@@ -69,19 +116,6 @@ public class MainActivity extends Activity {
         }
 
 
-        public class Person {
-            public String Account;
-            public String Name;
-
-            public String getAccount() {
-                return Account;
-            }
-
-            public String getName() {
-                return Name;
-            }
-
-        }
 
         ////////////////////////////////////////////////////////
         class AsyncClient extends AsyncTask<Void, Void, Void> {

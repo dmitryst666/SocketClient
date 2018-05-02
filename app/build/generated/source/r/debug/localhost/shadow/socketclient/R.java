@@ -833,21 +833,21 @@ public final class R {
     public static final int bottom=0x7f060009;
     public static final int chains=0x7f06000a;
     public static final int chronometer=0x7f06000b;
-    public static final int cv=0x7f06000c;
-    public static final int dimensions=0x7f06000d;
-    public static final int direct=0x7f06000e;
-    public static final int end=0x7f06000f;
-    public static final int forever=0x7f060010;
-    public static final int gone=0x7f060011;
-    public static final int icon=0x7f060012;
-    public static final int icon_group=0x7f060013;
-    public static final int info=0x7f060014;
-    public static final int invisible=0x7f060015;
-    public static final int italic=0x7f060016;
-    public static final int item_touch_helper_previous_elevation=0x7f060017;
-    public static final int left=0x7f060018;
-    public static final int line1=0x7f060019;
-    public static final int line3=0x7f06001a;
+    public static final int dimensions=0x7f06000c;
+    public static final int direct=0x7f06000d;
+    public static final int end=0x7f06000e;
+    public static final int forever=0x7f06000f;
+    public static final int gone=0x7f060010;
+    public static final int icon=0x7f060011;
+    public static final int icon_group=0x7f060012;
+    public static final int info=0x7f060013;
+    public static final int invisible=0x7f060014;
+    public static final int italic=0x7f060015;
+    public static final int item_touch_helper_previous_elevation=0x7f060016;
+    public static final int left=0x7f060017;
+    public static final int line1=0x7f060018;
+    public static final int line3=0x7f060019;
+    public static final int lv=0x7f06001a;
     public static final int name=0x7f06001b;
     public static final int none=0x7f06001c;
     public static final int normal=0x7f06001d;
@@ -862,18 +862,17 @@ public final class R {
     public static final int right=0x7f060026;
     public static final int right_icon=0x7f060027;
     public static final int right_side=0x7f060028;
-    public static final int rv=0x7f060029;
-    public static final int spread=0x7f06002a;
-    public static final int spread_inside=0x7f06002b;
-    public static final int standard=0x7f06002c;
-    public static final int start=0x7f06002d;
-    public static final int tag_transition_group=0x7f06002e;
-    public static final int text=0x7f06002f;
-    public static final int text2=0x7f060030;
-    public static final int time=0x7f060031;
-    public static final int title=0x7f060032;
-    public static final int top=0x7f060033;
-    public static final int wrap=0x7f060034;
+    public static final int spread=0x7f060029;
+    public static final int spread_inside=0x7f06002a;
+    public static final int standard=0x7f06002b;
+    public static final int start=0x7f06002c;
+    public static final int tag_transition_group=0x7f06002d;
+    public static final int text=0x7f06002e;
+    public static final int text2=0x7f06002f;
+    public static final int time=0x7f060030;
+    public static final int title=0x7f060031;
+    public static final int top=0x7f060032;
+    public static final int wrap=0x7f060033;
   }
   public static final class integer {
     public static final int status_bar_notification_info_maxnum=0x7f070000;
@@ -887,7 +886,6 @@ public final class R {
     public static final int notification_template_icon_group=0x7f080005;
     public static final int notification_template_part_chronometer=0x7f080006;
     public static final int notification_template_part_time=0x7f080007;
-    public static final int recycleview=0x7f080008;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f090000;

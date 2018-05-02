@@ -68,10 +68,6 @@
         "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_recycleview.xml.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\layout\\recycleview.xml"
-    },
-    {
         "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "D:\\_Android_Projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
