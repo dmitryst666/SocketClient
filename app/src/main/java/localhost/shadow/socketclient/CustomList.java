@@ -7,14 +7,16 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class CustomList extends ArrayAdapter<String>{
 
     private final Activity context;
-    private final String[] account;
-    private final String[] name;
+    private final ArrayList<String> account;
+    private final ArrayList<String> name;
 
 
-    public CustomList(Activity context, String[] account, String[] name){
+    public CustomList(Activity context, ArrayList<String> account, ArrayList<String> name){
         super(context, R.layout.item, account);
         this.context = context;
         this.account = account;
@@ -28,9 +30,9 @@ public class CustomList extends ArrayAdapter<String>{
         LayoutInflater  inflater = context.getLayoutInflater();
         View rowView = inflater.inflate(R.layout.item, null, true);
         TextView txtTitle = (TextView)rowView.findViewById(R.id.account) ;
-        txtTitle.setText(account[position]);
+        txtTitle.setText(account.get(position));
         TextView txtDet = (TextView)rowView.findViewById(R.id.name);
-        txtDet.setText(name[position]);
+        txtDet.setText(name.get(position));
 
         return rowView;
     }

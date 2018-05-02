@@ -6,16 +6,16 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.List;
 
 ///  http://www.fandroid.info/primer-ispolzovaniya-cardview-i-recyclerview-v-android/
 
@@ -24,14 +24,8 @@ public class MainActivity extends Activity {
     Button btnRefresh;
     EditText replayT, paramsT;
     ListView lv;
-
-
-    final String[] accz = new String[] { "Android", "iPhone", "WindowsMobile",
-            "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
-            "Linux", "OS/2" };
-    final String[] detz =  new String[] {"4.4", "9.0", "10",
-            "N/A", "N/A", "17.9", "Win7", "10.X",
-            "4.0", "Deprecated"};
+    ArrayList<String> accz = new ArrayList<>();
+    ArrayList<String> detz = new ArrayList<>();
 
 
 
@@ -41,7 +35,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+     //   accz.add("Android");
+     //   detz.add("4.4");
 
         CustomList adapter = new CustomList(MainActivity.this, accz, detz);
         lv = (ListView)findViewById(R.id.lv);
@@ -52,7 +47,7 @@ public class MainActivity extends Activity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
-                Toast.makeText(MainActivity.this, "You Clicked at " +accz[+ position], Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "You Clicked at " +accz.get(position), Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -64,8 +59,8 @@ public class MainActivity extends Activity {
        // account.setText("141000000");
        // cli_name.setText("tgdf g dug uf uy odf ");
 
-       // final Client client = new Client();
-      //  client.setCommand("SELECT TOP 100 * FROM test;");
+        final Client client = new Client();
+        client.setCommand("SELECT TOP 100 * FROM test;");
 
         paramsT = (EditText)findViewById(R.id.paramsT);
 
@@ -85,7 +80,7 @@ public class MainActivity extends Activity {
 
 
     public class Client {
-        String command;
+        String command, data;
         AsyncClient asyncClient;
 
 
@@ -95,6 +90,18 @@ public class MainActivity extends Activity {
             asyncClient.execute();
         }
 
+
+        public void fillArray(String data){
+
+            this.data = data;
+            try {
+                JSONObject json = new JSONObject(data);
+                /// TODO: parce JSON here
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+
+        }
 
 
         ////////////////////////////////////////////////////////
@@ -135,9 +142,9 @@ public class MainActivity extends Activity {
             protected void onPostExecute(Void resuld) {
 
                 super.onPostExecute(resuld);
-              //  replayT = (EditText)findViewById(R.id.replayText);
-               // replayT.setText(data);
-
+                replayT = (EditText)findViewById(R.id.paramsT);
+                replayT.setText(data);
+            fillArray(data);
 
             }
         }
