@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.ContextMenu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -11,6 +13,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -27,7 +30,9 @@ public class MainActivity extends Activity {
     ArrayList<String> accz = new ArrayList<>();
     ArrayList<String> detz = new ArrayList<>();
 
-
+    final int MENU_DETAILS = 1;
+    final int MENU_EDIT = 2;
+    final int MENU_REMOVE = 3;
 
 
     @Override
@@ -35,13 +40,11 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-     //   accz.add("Android");
-     //   detz.add("4.4");
 
         CustomList adapter = new CustomList(MainActivity.this, accz, detz);
         lv = (ListView)findViewById(R.id.lv);
         lv.setAdapter(adapter);
-
+/*
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
@@ -51,32 +54,42 @@ public class MainActivity extends Activity {
 
             }
         });
-
-
-      //  account = (TextView)findViewById(R.id.account);
-      //  cli_name = (TextView)findViewById(R.id.name);
-
-       // account.setText("141000000");
-       // cli_name.setText("tgdf g dug uf uy odf ");
-
+*/
         final Client client = new Client();
         client.setCommand("SELECT TOP 100 * FROM test;");
 
         paramsT = (EditText)findViewById(R.id.paramsT);
 
-        View.OnClickListener oclBtnRef = new View.OnClickListener() {
+     View.OnClickListener oclBtnRef = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-               // client.setCommand("SELECT GETDATE() " + paramsT.getText());
+                client.setCommand("SELECT GETDATE() " + paramsT.getText());
             }
         };
+
         btnRefresh = (Button) findViewById(R.id.refresh);
         btnRefresh.setOnClickListener(oclBtnRef);
+
+        registerForContextMenu(lv);
+
 
     }
 
 
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo){
+
+        menu.add(0, MENU_DETAILS, 0, "Details");
+        menu.add(1, MENU_EDIT,0,"Edit");
+        menu.add(1, MENU_REMOVE, 0, "Remove");
+
+    }
+
+    public boolean onContextItemSelected(MenuItem item){
+
+        return super.onContextItemSelected(item);
+    }
 
 
     public class Client {
@@ -93,11 +106,27 @@ public class MainActivity extends Activity {
 
         public void fillArray(String data){
 
-            this.data = data;
+            //this.data = data;
+           // Log.d("JSON", data);
             try {
-                JSONObject json = new JSONObject(data);
-                /// TODO: parce JSON here
+               // JSONObject json = new JSONObject(data);
+                JSONArray json = new JSONArray(data);
+                int i = 0;
+                while (i < json.length()) {
+                    //String acc = json.getString(0);
+                    JSONObject jObj = json.getJSONObject(i);
+                    String acc = jObj.getString("Account");
+                    accz.add(acc);
+                    String nam = jObj.getString("Name");
+                    detz.add(nam);
+                    //Log.d("JSON", acc + " = = = "+ nam);
+
+                    i++;
+                }
+
+
             } catch (JSONException e) {
+                Log.e("JSON", e.getLocalizedMessage());
                 e.printStackTrace();
             }
 
@@ -119,7 +148,7 @@ public class MainActivity extends Activity {
             @Override
             protected Void doInBackground(Void... params) {
                 try {
-                    s = new Socket("192.168.1.29", 11000);
+                    s = new Socket("192.168.33.91", 11000);
 
                     //String msg = "hi server";
                    // s.getOutputStream().write(command.getBytes()); //посылаем команду на сервер
@@ -142,8 +171,9 @@ public class MainActivity extends Activity {
             protected void onPostExecute(Void resuld) {
 
                 super.onPostExecute(resuld);
-                replayT = (EditText)findViewById(R.id.paramsT);
-                replayT.setText(data);
+                //replayT = (EditText)findViewById(R.id.paramsT);
+                //replayT.setText(data);
+
             fillArray(data);
 
             }

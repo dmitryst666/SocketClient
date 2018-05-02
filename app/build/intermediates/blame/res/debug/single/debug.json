@@ -1,210 +1,210 @@
 [
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_item.xml.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\layout\\item.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\layout\\notification_template_part_time.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable\\notification_icon_background.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-v21\\notification_action_background.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\layout-v21\\notification_action.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\layout-v16\\notification_template_custom_big.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\layout\\notification_template_icon_group.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\layout\\notification_action.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\layout\\notification_action.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable\\notification_bg.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_item.xml.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\layout\\item.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\layout-v16\\notification_template_custom_big.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable\\notification_bg_low.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\layout\\notification_action_tombstone.xml"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a4f2a59ec442272c1eaa4e31f9553fd4\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "I:\\_Android_projects\\SocketClient\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\_Android_Projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "D:\\_Android_Projects\\SocketClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "I:\\_Android_projects\\SocketClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Dmitry\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8e428addfbdc4f41024f3a69923338c\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     }
 ]
