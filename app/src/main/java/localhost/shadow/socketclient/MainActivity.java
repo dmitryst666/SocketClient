@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.support.v7.widget.CardView;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 
 import java.net.Inet4Address;
 import java.net.Socket;
@@ -19,6 +22,7 @@ public class MainActivity extends Activity {
     Button btnRefresh;
     EditText replayT, paramsT;
     TextView account, cli_name;
+    RecyclerView rv;
 
 
 
@@ -94,7 +98,7 @@ public class MainActivity extends Activity {
             @Override
             protected Void doInBackground(Void... params) {
                 try {
-                    s = new Socket("192.168.33.91", 11000);
+                    s = new Socket("192.168.1.29", 11000);
 
                     //String msg = "hi server";
                    // s.getOutputStream().write(command.getBytes()); //посылаем команду на сервер

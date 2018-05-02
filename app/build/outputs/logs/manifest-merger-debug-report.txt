@@ -1,95 +1,89 @@
 -- Merging decision tree log ---
 manifest
-ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
-MERGED from [com.android.support:cardview-v7:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\cardview-v7-21.0.3.aar\2facc853d620b35ae1040287e112e793\AndroidManifest.xml:14:4-17:12
-MERGED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-21.0.3.aar\245d4e8895841f575a3261215ce0ff27\AndroidManifest.xml:14:4-20:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c31de117b1170932cde318caebc5b78b\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\e05a528c1b98813406abb1bca95573d8\AndroidManifest.xml:14:4-17:12
-INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\9f5d57ab2f1fc897d6a915c95f9f62c0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\158403650cee38e42e500028bbc68fd1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\4e30f627b6a6620e9da19eccf94d8a0a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\035a07d4457af1d88e61d7e73063ad01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a4f2a59ec442272c1eaa4e31f9553fd4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\c98800f120ce42a69dee65f4a1b90552\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
-		INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
+		INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
-		INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
+		INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
-		INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
+		INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:4:5-66
+ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:4:5-66
 	android:name
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:5:5-19:19
-MERGED from [com.android.support:cardview-v7:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\cardview-v7-21.0.3.aar\2facc853d620b35ae1040287e112e793\AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:cardview-v7:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\cardview-v7-21.0.3.aar\2facc853d620b35ae1040287e112e793\AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-21.0.3.aar\245d4e8895841f575a3261215ce0ff27\AndroidManifest.xml:17:5-19:19
-MERGED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-21.0.3.aar\245d4e8895841f575a3261215ce0ff27\AndroidManifest.xml:17:5-19:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c31de117b1170932cde318caebc5b78b\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c31de117b1170932cde318caebc5b78b\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\e05a528c1b98813406abb1bca95573d8\AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\e05a528c1b98813406abb1bca95573d8\AndroidManifest.xml:16:5-19
+ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\9f5d57ab2f1fc897d6a915c95f9f62c0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\9f5d57ab2f1fc897d6a915c95f9f62c0\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:11:9-40
 activity#localhost.shadow.socketclient.MainActivity
-ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml:16:27-74
 uses-sdk
-INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
-INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:cardview-v7:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\cardview-v7-21.0.3.aar\2facc853d620b35ae1040287e112e793\AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:cardview-v7:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\cardview-v7-21.0.3.aar\2facc853d620b35ae1040287e112e793\AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-21.0.3.aar\245d4e8895841f575a3261215ce0ff27\AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-21.0.3.aar\245d4e8895841f575a3261215ce0ff27\AndroidManifest.xml:15:5-42
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c31de117b1170932cde318caebc5b78b\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c31de117b1170932cde318caebc5b78b\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\e05a528c1b98813406abb1bca95573d8\AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\e05a528c1b98813406abb1bca95573d8\AndroidManifest.xml:15:5-42
-INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
-INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
+INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
+INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\9f5d57ab2f1fc897d6a915c95f9f62c0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\9f5d57ab2f1fc897d6a915c95f9f62c0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\158403650cee38e42e500028bbc68fd1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\158403650cee38e42e500028bbc68fd1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\4e30f627b6a6620e9da19eccf94d8a0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\4e30f627b6a6620e9da19eccf94d8a0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\035a07d4457af1d88e61d7e73063ad01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\035a07d4457af1d88e61d7e73063ad01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a4f2a59ec442272c1eaa4e31f9553fd4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a4f2a59ec442272c1eaa4e31f9553fd4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\c98800f120ce42a69dee65f4a1b90552\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Shadow\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\c98800f120ce42a69dee65f4a1b90552\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
+INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
-		INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
+		INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
+		INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
-		ADDED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
-		INJECTED from I:\_Android_projects\SocketClient\app\src\main\AndroidManifest.xml
-activity#android.support.v7.widget.TestActivity
-ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-21.0.3.aar\245d4e8895841f575a3261215ce0ff27\AndroidManifest.xml:18:9-115
-	android:label
-		ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-21.0.3.aar\245d4e8895841f575a3261215ce0ff27\AndroidManifest.xml:18:19-59
-	android:name
-		ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Dmitry\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-21.0.3.aar\245d4e8895841f575a3261215ce0ff27\AndroidManifest.xml:18:60-113
+		INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
+		ADDED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml
+		INJECTED from D:\_Android_Projects\SocketClient\app\src\main\AndroidManifest.xml

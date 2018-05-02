@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="I:\_Android_projects\SocketClient\app\src\main\assets"/><source path="I:\_Android_projects\SocketClient\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="I:\_Android_projects\SocketClient\app\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\_Android_Projects\SocketClient\app\src\main\assets"/><source path="D:\_Android_Projects\SocketClient\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\_Android_Projects\SocketClient\app\src\debug\assets"/></dataSet></merger>
