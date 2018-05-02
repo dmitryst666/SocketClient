@@ -5,11 +5,13 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.net.Socket;
 import java.util.ArrayList;
@@ -21,11 +23,15 @@ public class MainActivity extends Activity {
 
     Button btnRefresh;
     EditText replayT, paramsT;
-    TextView account, cli_name;
-    private List<Person> persons;
-
     ListView lv;
 
+
+    final String[] accz = new String[] { "Android", "iPhone", "WindowsMobile",
+            "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
+            "Linux", "OS/2" };
+    final String[] detz =  new String[] {"4.4", "9.0", "10",
+            "N/A", "N/A", "17.9", "Win7", "10.X",
+            "4.0", "Deprecated"};
 
 
 
@@ -35,18 +41,21 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       //       initializeData();
-     String[] accz = new String[] { "Android", "iPhone", "WindowsMobile",
-                "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
-                "Linux", "OS/2" };
-     String[] detz =  new String[] {"4.4", "9.0", "10",
-                "N/A", "N/A", "17.9", "Win7", "10.X",
-                "4.0", "Deprecated"};
+
 
         CustomList adapter = new CustomList(MainActivity.this, accz, detz);
         lv = (ListView)findViewById(R.id.lv);
         lv.setAdapter(adapter);
 
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view,
+                                    int position, long id) {
+                Toast.makeText(MainActivity.this, "You Clicked at " +accz[+ position], Toast.LENGTH_SHORT).show();
+
+            }
+        });
 
 
       //  account = (TextView)findViewById(R.id.account);
@@ -72,36 +81,7 @@ public class MainActivity extends Activity {
 
     }
 
-    public class Person {
-        private String Account;
-        private String Name;
 
-
-        private Person (String a, String n){
-            Account = a;
-            Name = n;
-        }
-
-        public String getAccount() {
-            return Account;
-        }
-
-        public String getName() {
-            return Name;
-        }
-
-    }
-
-
-
-
-    public void initializeData(){
-        persons = new ArrayList<>();
-        persons.add(new Person("5454","4554"));
-        persons.add(new Person("1410000", "111111111"));
-        persons.add(new Person("1410001", "25 years old"));
-        persons.add(new Person("1410002", "35 years old"));
-    }
 
 
     public class Client {
