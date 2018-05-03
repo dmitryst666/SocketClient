@@ -28,8 +28,8 @@ public class MainActivity extends Activity {
     Button btnRefresh;
     EditText replayT, paramsT;
     ListView lv;
-    ArrayList<String> accz = new ArrayList<>();
-    ArrayList<String> detz = new ArrayList<>();
+    static ArrayList<String> accz = new ArrayList<>();
+    static ArrayList<String> detz = new ArrayList<>();
 
     final int MENU_DETAILS = 1;
     final int MENU_EDIT = 2;
@@ -99,13 +99,14 @@ public class MainActivity extends Activity {
     }
 
 
-    public class Client {
+    public static class Client {
         String command, data;
         AsyncClient asyncClient;
 
 
         public void setCommand(String command) {
             this.command = command;
+            Log.d("DATA--", command);
             asyncClient = new AsyncClient();
             asyncClient.execute();
         }
@@ -158,8 +159,8 @@ public class MainActivity extends Activity {
                     s = new Socket("192.168.1.29", 11000);
 
                     //String msg = "hi server";
-                   // s.getOutputStream().write(command.getBytes()); //посылаем команду на сервер
-                    s.getOutputStream().write("ok".getBytes()); //говорим серверу что подтверждение полученно
+                    s.getOutputStream().write(command.getBytes()); //посылаем команду на сервер
+                   // s.getOutputStream().write("ok".getBytes()); //говорим серверу что подтверждение полученно
 
                     byte[] buf = new byte[64 * 1024];
                     int r = s.getInputStream().read(buf);
@@ -180,6 +181,7 @@ public class MainActivity extends Activity {
                 super.onPostExecute(resuld);
                 //replayT = (EditText)findViewById(R.id.paramsT);
                 //replayT.setText(data);
+                Log.d("DATA--", data);
 
             fillArray(data);
 
