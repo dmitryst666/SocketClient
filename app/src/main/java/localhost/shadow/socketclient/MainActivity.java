@@ -1,6 +1,7 @@
 package localhost.shadow.socketclient;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -55,8 +56,9 @@ public class MainActivity extends Activity {
             }
         });
 */
-        final Client client = new Client();
-        client.setCommand("SELECT TOP 100 * FROM test;");
+    //    final Client client = new Client();
+    //    client.setCommand("SELECT TOP 100 * FROM test;");
+        onClick(null);
 
         paramsT = (EditText)findViewById(R.id.paramsT);
 
@@ -64,7 +66,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                client.setCommand("SELECT GETDATE() " + paramsT.getText());
+          //      client.setCommand("SELECT GETDATE() " + paramsT.getText());
             }
         };
 
@@ -76,6 +78,11 @@ public class MainActivity extends Activity {
 
     }
 
+////  new added
+    public void onClick(View view) {
+        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+        startActivity(intent);
+    }
 
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo){
@@ -148,7 +155,7 @@ public class MainActivity extends Activity {
             @Override
             protected Void doInBackground(Void... params) {
                 try {
-                    s = new Socket("192.168.33.91", 11000);
+                    s = new Socket("192.168.1.29", 11000);
 
                     //String msg = "hi server";
                    // s.getOutputStream().write(command.getBytes()); //посылаем команду на сервер
