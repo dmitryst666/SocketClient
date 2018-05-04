@@ -21,7 +21,7 @@ import org.json.JSONObject;
 import java.net.Socket;
 import java.util.ArrayList;
 
-///  http://www.fandroid.info/primer-ispolzovaniya-cardview-i-recyclerview-v-android/
+/// http://startandroid.ru/ru/uroki/vse-uroki-spiskom/68-urok-29-vyzyvaem-activity-i-poluchaem-rezultat-metod-startactivityforresult.html
 
 public class MainActivity extends Activity {
 
@@ -30,6 +30,8 @@ public class MainActivity extends Activity {
     ListView lv;
     static ArrayList<String> accz = new ArrayList<>();
     static ArrayList<String> detz = new ArrayList<>();
+
+    EditText tempIP, tempUser, tempPwd;
 
     final int MENU_DETAILS = 1;
     final int MENU_EDIT = 2;
@@ -76,12 +78,29 @@ public class MainActivity extends Activity {
         registerForContextMenu(lv);
 
 
+        tempIP = (EditText)findViewById(R.id.tempIP);
+        tempUser = (EditText)findViewById(R.id.tempUser);
+        tempPwd = (EditText)findViewById(R.id.tempPwd);
     }
 
 ////  new added
+
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (data == null) {return;}
+        String server = data.getStringExtra("paramsIP");
+        tempIP.setText(server);
+        String user = data.getStringExtra("paramsUser");
+        tempUser.setText(user);
+        String pass = data.getStringExtra("paramsPwd");
+        tempPwd.setText(pass);
+
+    }
+
     public void onClick(View view) {
-        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-        startActivity(intent);
+             /// new params window
+        Intent intent = new Intent(this, Params.class);
+        startActivityForResult(intent, 1);
+        /// new params window
     }
 
     @Override

@@ -27,9 +27,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="localhost.shadow.socketclient.LoginActivity"
-            android:label="Test" >
-        </activity>
+            android:name="localhost.shadow.socketclient.Params"
+            android:label="SQL server params" />
     </application>
 
 </manifest>
